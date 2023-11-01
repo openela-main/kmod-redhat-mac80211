@@ -1,0 +1,18 @@
+Index: src/net/mac80211/main.c
+===================================================================
+--- src.orig/net/mac80211/main.c	2022-01-30 05:33:20.680231094 +0100
++++ src/net/mac80211/main.c	2022-01-30 05:35:07.846221845 +0100
+@@ -1475,3 +1475,4 @@
+ 
+ MODULE_DESCRIPTION("IEEE 802.11 subsystem");
+ MODULE_LICENSE("GPL");
++MODULE_VERSION("4.18.0-348_dup8.5");
+Index: src/lib/crypto/arc4.c
+===================================================================
+--- src.orig/lib/crypto/arc4.c	2022-01-30 05:33:11.978313045 +0100
++++ src/lib/crypto/arc4.c	2022-01-30 05:35:29.499017927 +0100
+@@ -72,3 +72,4 @@
+ EXPORT_SYMBOL(arc4_crypt);
+ 
+ MODULE_LICENSE("GPL");
++MODULE_VERSION("4.18.0-348_dup8.5");
